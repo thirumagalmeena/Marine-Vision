@@ -1,0 +1,17 @@
+name: Notify Forks
+
+on:
+  push:
+    branches:
+      - main  # trigger when main is updated
+
+jobs:
+  notify-fork:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send repository dispatch to fork
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # token with repo access
+          repository: YOUR_USERNAME/Marine-Vision   # your fork
+          event-type: upstream-update
