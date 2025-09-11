@@ -34,8 +34,20 @@ This project has two main components:
 - Built a **web app interface** for real-time classification and comparison.  
 
 ---
+##  Dataset
+- **Training images:** 1241  
+- **Validation images:** 250  
+- **Test images:** 100  
+- **Categories:** Dolphin, Fish, Lobster, Octopus, Sea Horse  
 
-## ⚙️ Methods
+Dataset preprocessing included:
+- Normalization (standardizing pixel intensity values)  
+- Resizing (consistent dimensions)  
+- Augmentation (rotation, flipping, brightness adjustments)  
+
+---
+
+##  Methods
 ### Traditional Machine Learning Models
 - **Random Forest (RF):** Decision tree ensemble.  
 - **Support Vector Machines (SVM):** Hyperplane-based classification.  
