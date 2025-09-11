@@ -1,4 +1,4 @@
-# Marine-Vision
+# MarineVision
 # Comparative Analysis of Machine Learning Algorithms for Marine Animal Detection
 
 Marine animal classification is a crucial task in ecological research, biodiversity monitoring, and conservation.  
