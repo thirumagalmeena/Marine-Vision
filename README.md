@@ -67,13 +67,13 @@ Dataset preprocessing included:
 
 ##  Results
 
-| Model                  | Accuracy (%) |
+| Model                  | Accuracy (%)  |
 |-------------------------|--------------|
-| Random Forest (RF)      |         |
-| Support Vector Machines |        |
+| Random Forest (RF)      |              |
+| Support Vector Machines |              |
 | K-Means Clustering      | –            |
-| K-Nearest Neighbors     |         |
-| Convolutional NN (CNN)  | ****    |
+| K-Nearest Neighbors     |              |
+| Convolutional NN (CNN)  | ****         |
 
 **Insights:**  
 - CNNs excel at feature extraction and classification.  
