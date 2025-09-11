@@ -10,7 +10,6 @@ It compares traditional ML algorithms with deep learning and also provides a **w
 ---
 
 ##  Project Overview
-This project has two main components:
 
 1. **Comparative Model Analysis**  
    - Evaluates five machine learning models:  
