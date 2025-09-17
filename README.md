@@ -1,4 +1,4 @@
-# Marine-Vision
+# MarineVision
 # Comparative Analysis of Machine Learning Algorithms for Marine Animal Detection
 
 Marine animal classification is a crucial task in ecological research, biodiversity monitoring, and conservation.  
@@ -10,7 +10,6 @@ It compares traditional ML algorithms with deep learning and also provides a **w
 ---
 
 ##  Project Overview
-This project has two main components:
 
 1. **Comparative Model Analysis**  
    - Evaluates five machine learning models:  
@@ -68,13 +67,13 @@ Dataset preprocessing included:
 
 ##  Results
 
-| Model                  | Accuracy (%) |
+| Model                  | Accuracy (%)  |
 |-------------------------|--------------|
-| Random Forest (RF)      |         |
-| Support Vector Machines |        |
+| Random Forest (RF)      |              |
+| Support Vector Machines |              |
 | K-Means Clustering      | –            |
-| K-Nearest Neighbors     |         |
-| Convolutional NN (CNN)  | ****    |
+| K-Nearest Neighbors     |              |
+| Convolutional NN (CNN)  | ****         |
 
 **Insights:**  
 - CNNs excel at feature extraction and classification.  
